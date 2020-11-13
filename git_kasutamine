@@ -19,6 +19,6 @@ git status
 git add faili_nimi
 git commit -m "muudatuse kirjeldus"
 
-b) muudatuste uurimine
+b) muudatuste uurimine.
 git log
 git show commiti_bash
