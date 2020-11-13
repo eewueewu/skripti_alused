@@ -1,4 +1,4 @@
-1. Paigaldamine
+. Paigaldamine
 Linux süsteemis paigaldamine: apt-get install git
 
 2. Seadistamine (töötava kasutaja alt)
@@ -6,3 +6,19 @@ git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 
 git config --global core.editor emacs
+
+3. Initsialiseeri (ainult üks kord alguses töökaustas!)
+
+git init
+
+4. Kasutamine
+
+a) lisamine jälgimisele ja muudatuste fiskeerimine
+
+git status
+git add faili_nimi
+git commit -m "muudatuse kirjeldus"
+
+b) muudatuste uurimine
+git log
+git show commiti_bash
